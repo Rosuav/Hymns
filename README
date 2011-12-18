@@ -1,0 +1,11 @@
+The pieces of music listed here are all made freely available for noncommercial
+use; please attribute them in all use, and if you make your own derivative work,
+give that away freely too! (Specifically, CC-BY-NC-SA. And don't forget to
+attribute the works to all authors, not just me.)
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/
+
+The PDF, PNG, and MIDI files in this repository are included for convenience,
+but may be regenerated at any time from the Lilypond sources. Note that
+the uploader script is deliberately not included in this repository, so the
+'make upload' command will not work. Sorry!
