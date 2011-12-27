@@ -53,6 +53,7 @@
             % Lyrics courtesy of Cyber Hymnal, http://nethymnal.org/htm/h/v/hvasttbd.htm
             \addlyrics { \lyr \lyricmode {
                 \override LyricText #'font-size = #-2
+		\set stanza = #"1."
                 !How vast the be- ne- fits di- vine
                 !which we in Christ po- ssess!
                 !We are re- deemed from guilt and shame
@@ -65,6 +66,7 @@
             } }
             \addlyrics { \lyr \lyricmode {
                 \override LyricText #'font-size = #-2
+		\set stanza = #"2."
                 !The glo- ry, Lord, from first to last,
                 !is due to You a- lone;
                 !none to our- selves are we to take,
@@ -76,6 +78,7 @@
             } }
             \addlyrics { \lyr \lyricmode {
                 \override LyricText #'font-size = #-2
+		\set stanza = #"3."
                 !This is Your will, that in Your love
                 !we al- ways should a- bide;
                 !that earth and hell should not pre- vail

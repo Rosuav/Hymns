@@ -45,6 +45,7 @@
                 r4
             }
             \addlyrics { \lyr \lyricmode {
+	        \set stanza = #"1."
                 !Sol- diers of the Cross, a- rise!
                 !Gird you with your ar- mour bright;
                 !Migh- ty are your e- ne- mies,

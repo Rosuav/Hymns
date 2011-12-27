@@ -44,6 +44,7 @@
             % Words by Fanny Crosby, courtesy of Cyber Hymnal (also see Mission Praise #22).
             \addlyrics { \lyr \lyricmode {
                 \override LyricText #'font-size = #-1
+		\set stanza = #"1."
                 !All the way my Sav- ior leads me;
                 !what have I to ask be- side?
                 !Can I doubt His ten- der mer- cy,
