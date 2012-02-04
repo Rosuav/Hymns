@@ -18,7 +18,7 @@
     <<
         \new ChordNames {
             \set chordChanges = ##t
-            \transpose ef d,
+            \transpose ef bf,
             \chordmode {
 		s4.
 		ef4 ef8 ef4 ef8 ef4 ef8 ef4 ef8 ef4 ef8 ef4 ef8 ef4 ef8 f4.:m
@@ -29,10 +29,10 @@
         }
         \new Staff <<
             \set Staff.midiInstrument = "acoustic grand"
-            \key d \major
+            \key bf \major
             \time 6/8
             \tempo "" 4 = 120
-            \new Voice = "sops" \transpose ef d \relative f' {
+            \new Voice = "sops" \transpose ef bf, \relative f' {
                 r4.
                 \voiceOne
 		bf8(g) f ef4 g8 bf4 c8 d4(ef8) d4 c8 bf4 g8 ef(f) g f4.
@@ -58,7 +58,7 @@
 		!Be my law and I shall be firm- ly bound, for- e- ver free.
             } }
 
-            \new Voice = "alto" \transpose ef d \relative f' {
+            \new Voice = "alto" \transpose ef bf, \relative f' {
                 s4. % The same rest, but as a spacer so it doesn't print
                 \voiceTwo
 		bf8(g) f ef4 g8 bf4 c8 d4(ef8) d4 c8 bf4 g8 ef(f) g f4.
@@ -69,8 +69,8 @@
         >>
         \new Staff <<
             \clef bass
-            \key d \major
-            \new Voice = "tenor" \transpose ef d \relative c' {
+            \key bf \major
+            \new Voice = "tenor" \transpose ef bf, \relative c' {
                 r4.
                 \voiceOne
 		bf8(g) f ef4 g8 bf4 c8 d4(ef8) d4 c8 bf4 g8 ef(f) g f4.
@@ -78,7 +78,7 @@
 		bf4 bf8 ef4 ef8 d4 d8 c4. c4 c8 c4 ef8 ef4 ef8 ef4.
 		ef4 ef8 ef4 ef8 ef4 ef8 ef4(ef8) ef4 ef8 bf4. bf d4.~d4 f8 ef2.
             }
-            \new Voice = "bass" \transpose ef d \relative c' {
+            \new Voice = "bass" \transpose ef bf, \relative c' {
                 s4.
                 \voiceTwo
 		bf8(g) f ef4 g8 bf4 c8 d4(ef8) d4 c8 bf4 g8 ef(f) g f4.
