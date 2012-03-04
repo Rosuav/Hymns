@@ -42,6 +42,11 @@
 				af(g) af f'2.~f8 r r f,(e) f ef'2.~ef8 r
 				f, f4 f8 bf4 a8 bf4 c8 ef4 df8 c4 bf8 f'2.~f4. r4 r8
 				% [3]
+				bf,4(d8) c4(bf8) bf4 d8 c4 bf8 ef2. a,4. r4 r8
+				bf4(d8) c4(bf8) bf c d c4 bf8 g'2.~g8 r r
+				f4 ef8 d4 cs8 cs4 d8 d4 d8 c4 bf8 g'2.(a4.~a4) r8
+				f4. ef8(d c) d4. c bf~bf8 r r r2.
+				% [4]
 			}
 			\addlyrics { \lyr \lyricmode {
 				!I saw Hea- ven stand- ing o- pen
@@ -62,16 +67,23 @@
 				!Let us hence, Let us hence,
 				!Though ev- 'ry king on earth op- po- ses Him in force!
 				% [3]
+				!Say ye that He is not com- ing?
+				!Nay, Lord Je- sus will come at last!
+				!Ev- 'ry knee shall bow and ev- 'ry tongue con- fess
+				!Je- sus Christ is Lord!
+				% [4]
 			} }
 		>>
-		% \new GrandStaff <<
+		\new GrandStaff <<
 			% Accompaniment
 			\new Staff <<
 				\set Staff.midiInstrument = "acoustic grand"
 				\key bf \major
 				\time 6/8
 				\tempo "" 4 = 168
-				\new Voice = "treble" \relative f' {
+				% TODO: Use \unfoldRepeats in the MIDI output but not in the printed score
+				% And do that in Template.ly so it can be clean forever after.
+				\new Voice = "treble" \unfoldRepeats \relative f' {
 					r4 r8 <b f' af> r r <b f' af> r r <b f' af> r r
 					r4 r8 <a ef' f a> r r <a ef' f a> r r <c, ef> r r
 					<d bf> r r <ef bf> r r <d bf> r r <d bf> r r
@@ -104,6 +116,16 @@
 					f4 f8 <f df>8 r r <f df bf> r r <ef bf> r r <e bf> r r
 					<f a,>4 f16 f f4 f16 f f4 f16 f <f ef>4 f16 f
 					% [3]
+					<bf d,>8 r r <d, bf> r r <d bf> r r <d bf> r r
+					<ef a,> r r <ef a,> r r <ef a,> r r <ef a,> r r
+					<d bf> r r <d bf> r r <d bf> r r <d bf> r r
+					<a' ef a,> r r <a ef a,> r r <a ef a,> r r <a ef a,> r r
+					<af d, bf> r r <af f bf,> r r <af f bf,> r r <af f bf,> r r
+					\repeat tremolo 6 { <g ef>16 bf, }
+					\repeat tremolo 6 { <g' cs,>16 a, }
+					<f' d a>8 r r <g c, g> r r <bf f d> r r <a f ef> r r
+					<bf f d>4 f16 f f4 f16 f f4 f16 f f4 f16 f
+					% [4]
 				}
 			>>
 			\new Staff <<
@@ -139,9 +161,17 @@
 					<f f,> r r <bf bf,> r r <af af,> r r <g g,> r r <gf gf,> r r
 					<f f,> r r <a f ef> r r <bf f d> r r <a f c> r r
 					% [3]
+					<bf f bf,> r r <f f, f,> r r <f bf, bf,> r r <f f, f,> r r
+					<f c c,> r r <f f, f,> r r <f c c,> r r <f f, f,> r r
+					<f bf, bf,> r r <f f, f,> r r <f bf, bf,> r r <f f, f,> r r
+					<c c,> r r <f, f,> r r <c' c,> r r <f, f,> r r
+					bf r r f r r bf r r bf, r r <ef' ef,> r r <ef ef,> r r
+					<a, a,> r r <a a,> r r <bf bf,> r r <ef ef,> r r
+					<f f,> r r <f f,> r r <bf, bf,>4 r8 r4 r8 r2.
+					% [4]
 				}
 			>>
-		% >>
+		>>
 	>>
 	\layout { }
 	\midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
