@@ -37,6 +37,11 @@
 				a4 a8 f'4 e8 e4 d8 cs4 a8 a4 a8 f'4 e8 e4 d8 cs4 a8
 				a4 a8 d4(c8) ef4(a,8) c4(bf8) bf(a) g f2.
 				% [2]
+				r4 r8 af(g) af f'2.~f8 r r af,(g) af gf'2.~gf8 r r
+				af,8(g) af c4 df8 df4 d8 d4(ef8) c(bf af) bf2.(af8) r r
+				af(g) af f'2.~f8 r r f,(e) f ef'2.~ef8 r
+				f, f4 f8 bf4 a8 bf4 c8 ef4 df8 c4 bf8 f'2.~f4. r4 r8
+				% [3]
 			}
 			\addlyrics { \lyr \lyricmode {
 				!I saw Hea- ven stand- ing o- pen
@@ -52,6 +57,11 @@
 				!He will rule with i- ron scep- ter
 				!And he leads the ar- my of heav'n!
 				% [2]
+				!King of Kings, Lord of Lords!
+				!Tread the wine- press of the wrath of God.
+				!Let us hence, Let us hence,
+				!Though ev- 'ry king on earth op- po- ses Him in force!
+				% [3]
 			} }
 		>>
 		% \new GrandStaff <<
@@ -85,6 +95,15 @@
 					<< { d4(c8 ef4 a,8 c4 bf8 bf a g) } \\ { d4.(ef d e) } >>
 					f8 r f16 f f8 r f16 f
 					% [2]
+					f8 gf g af g af <f af f'> r r16 a <a f d>8 r r16 bf
+					<bf f d>4(af8) af g af <gf c gf'> r r16 a <a g c,>8 r r16 bf
+					<bf gf c,>4(af8) <af gf c,> g af <c af gf>4 df8 <df af gf>4 d8
+					<d af gf>4 ef8 <c gf> bf af <bf g e>2.(<af f>8) r r
+					<af f> g af <f af f'> r r16 a <a f df>8 r r16 bf <bf f df>4(af8)
+					f e f <ef a ef'> r r16 g <g ef c>8 r r16 af <af ef c>4(a8)
+					f4 f8 <f df>8 r r <f df bf> r r <ef bf> r r <e bf> r r
+					<f a,>4 f16 f f4 f16 f f4 f16 f <f ef>4 f16 f
+					% [3]
 				}
 			>>
 			\new Staff <<
@@ -111,6 +130,15 @@
 					<< { f4.(fs g bf) } \\ { bf,2.(bf4. c) } >>
 					<a' f>8 r r r4 r8
 					% [2]
+					f8 gf g af g af <df, df,> r r <af af,> r r <df df,> r r <af af,> r r
+					<ef' ef,> r r <af, af,> r r <ef' ef,> r r <af, af,> r r
+					<af af,> r r <bf bf,> r r <b b,> r r <c c,> r r
+					<df df,> r r <df df,> r r <df df,> r r
+					af r r <df df,> r r <af af,> r r <df df,> r r <f f,> r r
+					<c c,> r r f, r r <c' c,> r r
+					<f f,> r r <bf bf,> r r <af af,> r r <g g,> r r <gf gf,> r r
+					<f f,> r r <a f ef> r r <bf f d> r r <a f c> r r
+					% [3]
 				}
 			>>
 		% >>
