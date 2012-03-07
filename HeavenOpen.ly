@@ -6,11 +6,9 @@
 {
 	title="I saw Heaven standing open"
 	subtitle="Revelation 19"
-	% poet=""
-	% composer=""
-	% arranger=""
-	% meter="" ??
-	% piece="" ??
+	poet="Michael Angelico"
+	composer="Sir Arthur Sullivan" % circa 1898
+	arranger="arr Michael and Chris Angelico" % 2012-03-07
 }
 
 \score {
@@ -47,6 +45,8 @@
 				f4 ef8 d4 cs8 cs4 d8 d4 d8 c4 bf8 g'2.(a4.~a4) r8
 				f4. ef8(d c) d4. c bf~bf8 r r r2.
 				% [4]
+				\break
+				r2. r r r r r r r r r r r r r r
 			}
 			\addlyrics { \lyr \lyricmode {
 				!I saw Hea- ven stand- ing o- pen
@@ -180,12 +180,23 @@
 					<f' d a>8 r r <g c, g> r r <bf f d> r r <a f ef> r r
 					<bf f d>4 f16 f f4 f16 f f4 f16 f f4 f16 f
 					% [4]
+					<< {
+					bf4 d8 c4 bf8 bf4 d8 c4 bf8 ef2.(a,4.~a4) s8
+					bf4 d8 c4 bf8 bf4(d8) c4(bf8) g'2.~g4.
+					f4(ef8) d4(cs8) cs4 d8 d4. d8(c) bf g'2.(a)
+					f4. ef8(d c) d4. c bf2.
+					} \\ {
+					<f d>4. <f d> <f d> <f d> <a ef>2. <f ef>4.~<f ef>4 s8
+					<f d>4. <f d> <f d> <f d> <a ef'>2.~<a ef'>4.
+					a <bf f> <bf f> <af f> <af f> <g bf ef>2. <g cs e>
+					<a d>4. g8 s s <f bf>4. <ef a> d2.
+					} >>
 				}
 			>>
 			\new Staff <<
 				\clef bass
 				\key bf \major
-				\new Voice = "bass" \relative c' {
+				\new Voice = "bass" \unfoldRepeats \relative c' {
 					<< { r4 r8 <b d f> r r <b d f> r r <b d f> r r } \\ { <d, d,>2.~<d d,> } >>
 					<< { r4 r8 <c' ef f> r r <c ef f> } \\ { <c, c,>2.~<c c,>8 } >>
 					r8 r << f \\ f, >> r r
@@ -223,6 +234,14 @@
 					<a, a,> r r <a a,> r r <bf bf,> r r <ef ef,> r r
 					<f f,> r r <f f,> r r <bf, bf,>4 r8 r4 r8 r2.
 					% [4]
+					<bf bf,>8 r r <f f,> r r <bf bf,> r r <f f,> r r
+					<c c'> r r <f f,> r r <c c'> r r <f f,> r r
+					<bf bf,> r r <f f,> r r <bf bf,> r r <f f,> r r
+					<c c'> r r <f f,> r r <f' f,> r r <f f,> r r
+					<bf bf,> r r <f f,> r r <d d,> r r <bf bf,> r r
+					\repeat tremolo 6 { ef,16 ef' }
+					\repeat tremolo 6 { a,,16 a' }
+					<d d,>8 r r <ef ef,> r r <f f,> r r <f f,> r r <bf, bf,>2.
 				}
 			>>
 		>>
