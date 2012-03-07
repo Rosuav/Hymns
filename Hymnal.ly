@@ -9,9 +9,9 @@
 \include "english.ly"
 #(set-default-paper-size "a4")
 
-\header
+\paper
 {
-    tagline=\markup { \smaller "From Rosuav's Hymns, http://rosuav.com/hymns/ - rendered by GNU Lilypond" }
+    oddFooterMarkup=\markup { \fill-line { \smaller "From Rosuav's Hymns, http://rosuav.com/hymns/ - rendered by GNU Lilypond" } }
 }
 
 %{
