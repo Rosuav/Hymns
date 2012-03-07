@@ -22,12 +22,12 @@
 			}
 		}
 		\new Staff <<
-			% Voice
+			% Philip
 			\set Staff.midiInstrument = "acoustic grand"
 			\key bf \major
 			\time 6/8
 			\tempo "" 4 = 168
-			\new Voice = "sops" \relative f' {
+			\new Voice = "solo" \relative f' {
 				r2. r r r4 r8
 				f4 f8 bf4 a8 g4 a8 bf4 f8 bf4 c8 d4 c8 bf4 c8 d4 bf8 bf(c) d f2.~f~f~f8 r r
 				f,4 f8 bf4 a8 g4 a8 bf4 f8 bf4 c8 d4 c8 bf4 c8 d4 bf8 bf c d f2.~f~f~f8 r r
@@ -73,6 +73,60 @@
 				!Je- sus Christ is Lord!
 				% [4]
 			} }
+		>>
+		\new ChoirStaff <<
+			\new Staff <<
+				\key bf \major
+				\time 6/8
+				\tempo "" 4 = 168
+				\set Staff.midiInstrument = "acoustic grand"
+				\new Voice = "sops" \relative f' {
+					r2. r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r
+					r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r
+					\voiceOne
+					bf4 d8 c4 bf8 bf4 d8 c4 bf8 ef2.(a,4.~a4)
+					a8 bf4 d8 c4 bf8 bf4(d8) c4(bf8) g'2.~g4.
+					f4(ef8) d4(cs8) cs4 d8 d4. d8(c) bf g'2.(a)
+					f4. ef8(d c) d4. c bf2.
+				}
+				\addlyrics { \lyr \lyricmode {
+					!Ev- 'ry knee shall bow and ev- 'ry tongue
+					!Con- fess that Je- sus Christ is Lord!
+					!Hail, hail to the Lord of the world!
+					!Je- sus Christ is King!
+				} }
+				\new Voice = "alto" \relative f' {
+					s2. s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s
+					s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s
+					\voiceTwo
+					f4 f8 f4 f8 f4 f8 f4 f8 a2.(f4.~f4) f8
+					f4 f8 f4 f8 f4. f a2.~a4.
+					a4. bf bf4 bf8 af4. af4 af8 g2.(a)
+					f4. g bf4. a bf2.
+				}
+			>>
+			\new Staff <<
+				\clef bass
+				\key bf \major
+				\new Voice = "tenor" \relative c' {
+					r2. r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r
+					r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r
+					\voiceOne
+					d4 d8 d4 d8 d4 d8 d4 d8 f2.(ef4.~ef4) ef8
+					d4 d8 d4 d8 d4. d ef2.~ef4.
+					f4. f f4 f8 f4. bf,4 bf8 ef2.(cs)
+					d4. c f4. ef <d bf>2.
+				}
+				\new Voice = "bass" \relative c' {
+					s2. s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s
+					s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s
+					\voiceTwo
+					bf4 bf8 f4 f8 bf4 bf8 f4 f8 c'2.(f,4.~f4) f8
+					bf4 bf8 f4 f8 bf4. f c'2.~c4.
+					f,4. bf f4 f8 d4. bf4 bf8 ef2.(a,)
+					d4. ef f4. f bf,2.
+				}
+			>>
 		>>
 		\new GrandStaff <<
 			% Accompaniment
@@ -173,6 +227,6 @@
 			>>
 		>>
 	>>
-	\layout { }
+	\layout { \context { \RemoveEmptyStaffContext } \context { \Score \override VerticalAxisGroup #'remove-first = ##t } }
 	\midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
 }
