@@ -21,11 +21,11 @@
 		}
 		\new Staff <<
 			% Philip
-			\set Staff.midiInstrument = "acoustic grand"
+			\set Staff.midiInstrument = "trumpet"
 			\key bf \major
 			\time 6/8
 			\tempo "" 4 = 168
-			\new Voice = "solo" \relative f' {
+			\new Voice = "solo" \relative f {
 				r2. r r r4 r8
 				f4 f8 bf4 a8 g4 a8 bf4 f8 bf4 c8 d4 c8 bf4 c8 d4 bf8 bf(c) d f2.~f~f~f8 r r
 				f,4 f8 bf4 a8 g4 a8 bf4 f8 bf4 c8 d4 c8 bf4 c8 d4 bf8 bf c d f2.~f~f~f8 r r
@@ -76,10 +76,10 @@
 		>>
 		\new ChoirStaff <<
 			\new Staff <<
+				\set Staff.midiInstrument = "choir aahs"
 				\key bf \major
 				\time 6/8
 				\tempo "" 4 = 168
-				\set Staff.midiInstrument = "acoustic grand"
 				\new Voice = "sops" \relative f' {
 					r2. r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r
 					r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r
@@ -106,6 +106,7 @@
 				}
 			>>
 			\new Staff <<
+				\set Staff.midiInstrument = "choir aahs"
 				\clef bass
 				\key bf \major
 				\new Voice = "tenor" \relative c' {
@@ -194,6 +195,7 @@
 				}
 			>>
 			\new Staff <<
+				\set Staff.midiInstrument = "acoustic grand"
 				\clef bass
 				\key bf \major
 				\new Voice = "bass" \unfoldRepeats \relative c' {
