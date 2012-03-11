@@ -25,7 +25,8 @@
 			\key bf \major
 			\time 6/8
 			\tempo "" 4 = 168
-			\new Voice = "solo" \relative f {
+			\transposition c
+			\new Voice = "solo" \relative f' {
 				r2. r r r4 r8
 				f4 f8 bf4 a8 g4 a8 bf4 f8 bf4 c8 d4 c8 bf4 c8 d4 bf8 bf(c) d f2.~f~f~f8 r r
 				f,4 f8 bf4 a8 g4 a8 bf4 f8 bf4 c8 d4 c8 bf4 c8 d4 bf8 bf c d f2.~f~f~f8 r r
