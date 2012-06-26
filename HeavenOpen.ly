@@ -17,6 +17,7 @@
 			\set chordChanges = ##t
 			\transpose c c,
 			\chordmode {
+				s4. b:dim7 b:dim7 b:dim7 s4. f:7 f:7
 			}
 		}
 		\new Staff <<
@@ -29,20 +30,20 @@
 			\new Voice = "solo" \relative f' {
 				r2. r r r4 r8
 				f4 f8 bf4 a8 g4 a8 bf4 f8 bf4 c8 d4 c8 bf4 c8 d4 bf8 bf(c) d f2.~f~f~f8 r r
-				f,4 f8 bf4 a8 g4 a8 bf4 f8 bf4 c8 d4 c8 bf4 c8 d4 bf8 bf c d f2.~f~f~f8 r r
+				f,4 f8 bf4 a8 g4 a8 bf4 f8 bf4 c8 d4 c8 bf4 c8 d4 bf8 bf(c) d f2.~f~f~f8 r r
 				% [1]
-				d4. c4 b8 b4 bf8 bf4(a8) g4(f8) d'2.(c4.) r4 r8
+				d4. c4 b8 b4 bf8 bf4(a8) g4 f8 d'2. c4. r4 r8
 				c4(b8) b4 bf8 bf4 c16(bf) a4 g8 f'2.(c8) r r
 				a4 a8 f'4 e8 e4 d8 cs4 a8 a4 a8 f'4 e8 e4 d8 cs4 a8
-				a4 a8 d4(c8) ef4(a,8) c4(bf8) bf(a) g f2.
+				a4 a8 d4 c8 ef4 a,8 c4 bf8 bf(a) g f2.
 				% [2]
 				r4 r8 af(g) af f'2.~f8 r r af,(g) af gf'2.~gf8 r r
-				af,8(g) af c4 df8 df4 d8 d4(ef8) c(bf af) bf2.(af8) r r
+				af,8(g) af c4 df8 df4 d8 d4 ef8 c(bf) af bf2. af8 r r
 				af(g) af f'2.~f8 r r f,(e) f ef'2.~ef8 r
 				f, f4 f8 bf4 a8 bf4 c8 ef4 df8 c4 bf8 f'2.~f4. r4 r8
 				% [3]
-				bf,4(d8) c4(bf8) bf4 d8 c4 bf8 ef2. a,4. r4 r8
-				bf4(d8) c4(bf8) bf c d c4 bf8 g'2.~g8 r r
+				bf,4 d8 c4 bf8 bf4 d8 c4 bf8 ef2. a,4. r4 r8
+				bf4 d8 c4 bf8 bf4 d8 c4 bf8 g'2.~g8 r r
 				f4 ef8 d4 cs8 cs4 d8 d4 d8 c4 bf8 g'2.(a4.~a4) r8
 				f4. ef8(d c) d4. c bf~bf8 r r r2.
 				% [4]
@@ -51,25 +52,25 @@
 			}
 			\addlyrics { \lyr \lyricmode {
 				!I saw Hea- ven stand- ing o- pen
-				!And be- fore me there was stand- ing
+				!And I saw re- vealed be- fore me
 				!A white horse!
-				!And the ri- der of the horse with just- ice
-				!Jud- ges and makes war
-				!Is Faith- ful and True!
+				!And the ri- der of the horse is True
+				!and Faitf- ful as He jud- ges
+				!And makes war!
 				% [1]
-				!His eyes are like a blaz- ing fire
+				!His eyes were like a fire as it bla- zes
 				!And on his head are ma- ny crowns
 				!From his mouth a sword pro- gres- ses,
 				!He will rule with i- ron scep- ter
-				!And he leads the ar- my of heav'n!
+				!And he treads the wine- press of the wrath of God.
 				% [2]
 				!King of Kings, Lord of Lords!
-				!Tread the wine- press of the wrath of God.
-				!Let us hence, Let us hence,
+				!With the ar- my of the Lord ar- rayed be- hind Him.
+				!King of Kings, Lord of Lords!
 				!Though ev- 'ry king on earth op- po- ses Him in force!
 				% [3]
-				!Say ye that He is not com- ing?
-				!Nay, Lord Je- sus will come at last!
+				!Say ye that the Lord is slow in com- ing?
+				!Nay, Lord Je- sus Christ will come at last!
 				!Ev- 'ry knee shall bow and ev- 'ry tongue con- fess
 				!Je- sus Christ is Lord!
 				% [4]
@@ -86,13 +87,13 @@
 					r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r
 					\voiceOne
 					bf4 d8 c4 bf8 bf4 d8 c4 bf8 ef2.(a,4.~a4)
-					a8 bf4 d8 c4 bf8 bf4(d8) c4(bf8) g'2.~g4.
+					a8 bf4 d8 c4 bf8 bf4 d8 c4 bf8 g'2.~g4.
 					f4(ef8) d4(cs8) cs4 d8 d4. d8(c) bf g'2.(a)
 					f4. ef8(d c) d4. c bf2.
 				}
 				\addlyrics { \lyr \lyricmode {
 					!Ev- 'ry knee shall bow and ev- 'ry tongue
-					!Con- fess that Je- sus Christ is Lord!
+					!Con- fess that Je- sus Christ is Lord of all!
 					!Hail, hail to the Lord of the world!
 					!Je- sus Christ is King!
 				} }
@@ -101,7 +102,7 @@
 					s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s
 					\voiceTwo
 					f4 f8 f4 f8 f4 f8 f4 f8 a2.(f4.~f4) f8
-					f4 f8 f4 f8 f4. f a2.~a4.
+					f4 f8 f4 f8 f4 f8 f4 f8 a2.~a4.
 					a4. bf bf4 bf8 af4. af4 af8 g2.(a)
 					f4. g bf4. a bf2.
 				}
@@ -115,7 +116,7 @@
 					r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r
 					\voiceOne
 					d4 d8 d4 d8 d4 d8 d4 d8 f2.(ef4.~ef4) ef8
-					d4 d8 d4 d8 d4. d ef2.~ef4.
+					d4 d8 d4 d8 d4 d8 d4 d8 ef2.~ef4.
 					f4. f f4 f8 f4. bf,4 bf8 ef2.(cs)
 					d4. c f4. ef <d bf>2.
 				}
@@ -124,7 +125,7 @@
 					s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s
 					\voiceTwo
 					bf4 bf8 f4 f8 bf4 bf8 f4 f8 c'2.(f,4.~f4) f8
-					bf4 bf8 f4 f8 bf4. f c'2.~c4.
+					bf4 bf8 f4 f8 bf4 bf8 f4 f8 c'2.~c4.
 					f,4. bf f4 f8 d4. bf4 bf8 ef2.(a,)
 					d4. ef f4. f bf,2.
 				}
