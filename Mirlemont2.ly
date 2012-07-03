@@ -12,7 +12,7 @@
 	arranger="arr Chris Angelico" % 2012-02-05
 	% meter="" ??
 	% piece="" ??
-	copyright=\markup { \smaller "Words copyright 1987 Presbyterian Church of Australia - CCLI 242927" }
+	subsubtitle=\markup { \smaller "Words copyright 1987 Presbyterian Church of Australia - CCLI 242927" }
 }
 
 \score {
