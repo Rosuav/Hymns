@@ -55,10 +55,10 @@
 				!And I saw re- vealed be- fore me
 				!A white horse!
 				!And the ri- der of the horse is True
-				!and Faitf- ful as He jud- ges
+				!and Faith- ful as He jud- ges
 				!And makes war!
 				% [1]
-				!His eyes were like a fire as it bla- zes
+				!His eyes are like a fire as it bla- zes
 				!And on his head are ma- ny crowns
 				!From his mouth a sword pro- gres- ses,
 				!He will rule with i- ron scep- ter
