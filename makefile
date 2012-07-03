@@ -1,5 +1,5 @@
 # These ones get uploaded to rosuav.com/hymns/
-live=Roseleaf.pdf LetHerGo.pdf LetHerGo2.pdf AndinTruth.pdf Variables.pdf Bovigny.pdf Mirlemont.pdf
+live=Roseleaf.pdf LetHerGo.pdf LetHerGo2.pdf AndinTruth.pdf Variables.pdf Bovigny.pdf Mirlemont.pdf Mirlemont2.pdf
 # These ones don't.
 all=$(live) Gracious.pdf OrgRoseleaf.pdf AndinTruthOrig.pdf HeavenOpen.pdf
 
