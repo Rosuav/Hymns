@@ -115,43 +115,23 @@
 % Additional verses
 \markup \fill-line {
 \column {
-\wordwrap-string #"
-2. 'Mid the homes of want and woe,
-
-Strangers to the living word,
-
-Let the Saviour's herald go,
-
-Let the voice of hope be heard.
-
-To the weary and the worn
-
-Tell of realms where sorrows cease;
-
-To the outcast and forlorn
-
-Speak of mercy and of peace.
-"
+"2. 'Mid the homes of want and woe,"
+"Strangers to the living word,"
+"Let the Saviour's herald go,"
+"Let the voice of hope be heard."
+"To the weary and the worn"
+"Tell of realms where sorrows cease;"
+"To the outcast and forlorn"
+"Speak of mercy and of peace."
 }
 \column {
-\wordwrap-string #"
-3.Guard the helpless; seek the strayed;
-
-Comfort troubles; banish grief;
-
-In the might of God arrayed,
-
-Scatter sin and unbelief.
-
-Be the banner still unfurled,
-
-Still unsheathed the Spirit's sword,
-
-Till the kingdoms of the world
-
-Are the Kingdom of the Lord.
-"
+"3. Guard the helpless; seek the strayed;"
+"Comfort troubles; banish grief;"
+"In the might of God arrayed,"
+"Scatter sin and unbelief."
+"Be the banner still unfurled,"
+"Still unsheathed the Spirit's sword,"
+"Till the kingdoms of the world"
+"Are the Kingdom of the Lord."
 }
-
 }
-

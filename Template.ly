@@ -55,12 +55,23 @@
 }
 
 % Additional verses
-\markup \wordwrap-string #"
-2. double-space
-
-these lines
-"
-\markup \wordwrap-string #"
-3.
-"
-
+\markup \fill-line {
+\column {
+"2. Lorem ipsum"
+"dolor sit"
+"amet"
+" "
+"3. "
+" "
+}
+\column {
+"4. "
+" "
+" "
+}
+}
+% Odd verse in the middle of the line (drop this section if even verse count)
+\markup \fill-line { \column {
+" "
+"5. "
+}}

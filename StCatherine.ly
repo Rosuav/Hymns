@@ -66,14 +66,3 @@
 	% \midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
 	\midi { }
 }
-
-% Additional verses
-\markup \wordwrap-string #"
-2. double-space
-
-these lines
-"
-\markup \wordwrap-string #"
-3.
-"
-

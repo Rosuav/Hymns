@@ -81,20 +81,15 @@
 }
 
 % Additional verses
-\markup \wordwrap-string #"
-2. I know not why I love him so;
-
-It is enchantment, surely!
-
-He's dry and snuffy, deaf and slow
-
-Ill-tempered, weak and poorly!
-
-He's ugly, and absurdly dressed,
-
-And sixty-seven nearly,
-
-But if the truth must be confessed,
-
-I love him very dearly!
-"
+\markup \fill-line {
+\column {
+"2. I know not why I love him so;"
+"It is enchantment, surely!"
+"He's dry and snuffy, deaf and slow"
+"Ill-tempered, weak and poorly!"
+"He's ugly, and absurdly dressed,"
+"And sixty-seven nearly,"
+"But if the truth must be confessed,"
+"I love him very dearly!"
+}
+}

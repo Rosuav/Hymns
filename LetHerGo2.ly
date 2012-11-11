@@ -122,83 +122,45 @@
 % Additional verses
 \markup \fill-line {
 \column {
-\wordwrap-string #"
-3. There is the throne of David;
-
-and there from care released,
-
-the shout of them that triumph,
-
-the song of them that feast:
-
-and they who, with their leader,
-
-have conquered in the fight,
-
-for ever and for ever
-
-are clad in robes of white.
-"
+"3. There is the throne of David;"
+"and there from care released,"
+"the shout of them that triumph,"
+"the song of them that feast:"
+"and they who, with their leader,"
+"have conquered in the fight,"
+"for ever and for ever"
+"are clad in robes of white."
 }
 \column {
-\wordwrap-string #"
-4.O sweet and blessed country,
-
-the home of God's elect;
-
-O sweet and blessed country,
-
-that eager hearts expect!
-
-Jesus, in mercy bring us,
-
-to that dear land of rest
-
-Who art, with God the Father
-
-and Spirit, ever blest.
-"
+"4. O sweet and blessed country,"
+"the home of God's elect;"
+"O sweet and blessed country,"
+"that eager hearts expect!"
+"Jesus, in mercy bring us,"
+"to that dear land of rest"
+"Who art, with God the Father"
+"and Spirit, ever blest."
 }
-%{ Rejoice words
+%{ Rejoice words:
 \column {
-\wordwrap-string #"
-3. There is the throne of David;
-
-and there from pain released,
-
-the shout of those who triumph,
-
-the song of those who feast:
-
-and all who, with their leader,
-
-have conquered in the fight,
-
-are garlanded with glory
-
-and robed in purest white.
-"
+"3. There is the throne of David;"
+"and there from pain released,"
+"the shout of those who triumph,"
+"the song of those who feast:"
+"and all who, with their leader,"
+"have conquered in the fight,"
+"are garlanded with glory"
+"and robed in purest white."
 }
 \column {
-\wordwrap-string #"
-4.How lovely is that city,
-
-the home of God's elect;
-
-how beautiful the country
-
-that eager hearts expect!
-
-Jesus, in mercy bring us,
-
-to that eternal shore
-
-where Father, Son, and Spirit
-
-are worshipped evermore.
-"
+"4.How lovely is that city,"
+"the home of God's elect;"
+"how beautiful the country"
+"that eager hearts expect!"
+"Jesus, in mercy bring us,"
+"to that eternal shore"
+"where Father, Son, and Spirit"
+"are worshipped evermore."
 }
 End Rejoice %}
-
 }
-

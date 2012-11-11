@@ -97,58 +97,35 @@
 % Additional verses
 \markup \fill-line {
 \column {
-\wordwrap-string #"
-3. For peaceful homes and healthful days,
-
-for all the blessings earth displays,
-
-we owe You thankfulness and praise,
-
-who gives us all.
-
-4. Freely You gave Your only Son,
-
-who on the cross salvation won;
-
-and in the life through Him begun
-
-You give us all.
-
-5. You sent Your Spirit from above
-
-as wind and fire and gentle dove;
-
-and in His gifts of power and love
-
-You gave us all.
-"
+"3. For peaceful homes and healthful days,"
+"for all the blessings earth displays,"
+"we owe You thankfulness and praise,"
+"who gives us all."
+" "
+"4. Freely You gave Your only Son,"
+"who on the cross salvation won;"
+"and in the life through Him begun"
+"You give us all."
+" "
+"5. You sent Your Spirit from above"
+"as wind and fire and gentle dove;"
+"and in His gifts of power and love"
+"You gave us all."
 }
 \column {
-\wordwrap-string #"
-6. For souls redeemed, for sins forgiven,
-
-for means of grace and hopes of heaven,
-
-to You, O Lord, what can be given?
-
-You give us all.
-
-7. We lose what on ourselves we spend;
-
-we have as treasure without end
-
-whatever, Lord, to You we lend.
-
-You give us all.
-
-8. Father, from whom we all receive
-
-our life, our gifts, our power to give,
-
-O may we ever with you live:
-
-You give us all.
-"
+"6. For souls redeemed, for sins forgiven,"
+"for means of grace and hopes of heaven,"
+"to You, O Lord, what can be given?"
+"You give us all."
+" "
+"7. We lose what on ourselves we spend;"
+"we have as treasure without end"
+"whatever, Lord, to You we lend."
+"You give us all."
+" "
+"8. Father, from whom we all receive"
+"our life, our gifts, our power to give,"
+"O may we ever with you live:"
+"You give us all."
 }
-
 }

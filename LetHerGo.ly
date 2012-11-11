@@ -113,42 +113,23 @@
 % Additional verses
 \markup \fill-line {
 \column {
-\wordwrap-string #"
-2. All the way my Savior leads me,
-
-Cheers each winding path I tread;
-
-Gives me grace for every trial,
-
-Feeds me with the living Bread.
-
-Though my weary steps may falter,
-
-And my soul a-thirst may be,
-
-Gushing from the Rock before me,
-
-Lo! A spring of joy I see.
-"
+"2. All the way my Savior leads me,"
+"Cheers each winding path I tread;"
+"Gives me grace for every trial,"
+"Feeds me with the living Bread."
+"Though my weary steps may falter,"
+"And my soul a-thirst may be,"
+"Gushing from the Rock before me,"
+"Lo! A spring of joy I see."
 }
 \column {
-\wordwrap-string #"
-3. All the way my Savior leads me
-
-O the fullness of His love!
-
-Perfect rest to me is promised
-
-In my Father's house above.
-
-When my spirit, clothed immortal,
-
-Wings its flight to realms of day
-
-This my song through endless ages:
-
-Jesus led me all the way.
-"
+"3. All the way my Savior leads me"
+"O the fullness of His love!"
+"Perfect rest to me is promised"
+"In my Father's house above."
+"When my spirit, clothed immortal,"
+"Wings its flight to realms of day"
+"This my song through endless ages:"
+"Jesus led me all the way."
 }
 }
-

@@ -90,46 +90,25 @@
 % Additional verses
 \markup \fill-line {
 \column {
-\wordwrap-string #"
-3. Gird thy heavenly armour on
-
-Wear it ever, night and day;
-
-Ambushed lies the evil one:
-
-Watch and pray.
-
-.
-
-4. Hear the victors who o'ercame
-
-Still they mark each warrior's way
-
-All with one sweet voice exclaim,
-
-\"Watch and pray.\"
-"
+"3. Gird thy heavenly armour on"
+"Wear it ever, night and day;"
+"Ambushed lies the evil one:"
+"Watch and pray."
+" "
+"4. Hear the victors who o'ercame"
+"Still they mark each warrior's way"
+"All with one sweet voice exclaim,"
+"\"Watch and pray.\""
 }
 \column {
-\wordwrap-string #"
-5. Hear, above all, hear thy Lord,
-
-Him thou lovest to obey
-
-Hide within thy heart His word:
-
-\"Watch and pray.\"
-
-.
-
-6. Watch, as if on that alone
-
-Hung the issue of the day
-
-Pray that help may be sent down:
-
-Watch and pray.
-"
+"5. Hear, above all, hear thy Lord,"
+"Him thou lovest to obey"
+"Hide within thy heart His word:"
+"\"Watch and pray.\""
+" "
+"6. Watch, as if on that alone"
+"Hung the issue of the day"
+"Pray that help may be sent down:"
+"Watch and pray."
 }
-
 }

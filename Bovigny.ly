@@ -93,14 +93,12 @@
     \midi { } % Sound the chords
 }
 
-
 % Additional verses
-\markup \wordwrap-string #"
-3. Holy Spirit, peace divine, still this restless heart of mine;
-
-Speak to calm this tossing sea, stayed in Thy tranquility.
-
-Holy Spirit, joy divine, gladden Thou this heart of mine;
-
-In the desert ways I sing, 'Spring, O Well, forever spring!'
-"
+\markup \fill-line {
+\column {
+"3. Holy Spirit, peace divine, still this restless heart of mine;"
+"Speak to calm this tossing sea, stayed in Thy tranquility."
+"Holy Spirit, joy divine, gladden Thou this heart of mine;"
+"In the desert ways I sing, 'Spring, O Well, forever spring!'"
+}
+}

@@ -74,46 +74,25 @@
 % Additional verses
 \markup \fill-line {
 \column {
-\wordwrap-string #"
-2. Fellowship and family
-
-Ears to hear, and eyes to see
-
-Mind that can think on your law
-
-Teach me, Lord, to thank You more.
-
-.
-
-3. In the midst of dark despair
-
-Your Word shines, a hope to bear
-
-Brings peace and calm, 'mid uproar
-
-Teach me, Lord, to thank You more.
-"
+"2. Fellowship and family"
+"Ears to hear, and eyes to see"
+"Mind that can think on your law"
+"Teach me, Lord, to thank You more."
+" "
+"3. In the midst of dark despair"
+"Your Word shines, a hope to bear"
+"Brings peace and calm, 'mid uproar"
+"Teach me, Lord, to thank You more."
 }
 \column {
-\wordwrap-string #"
-4. When comes death, with Him I'll live
-
-And forever, praise I'll give
-
-But even now, bruised and sore,
-
-Teach me, Lord, to thank You more.
-
-.
-
-5. Though our thanks is often poor
-
-Though we fail to Thee adore
-
-Help us to think, more and more,
-
-We have much to thank You for.
-"
+"4. When comes death, with Him I'll live"
+"And forever, praise I'll give"
+"But even now, bruised and sore,"
+"Teach me, Lord, to thank You more."
+" "
+"5. Though our thanks is often poor"
+"Though we fail to Thee adore"
+"Help us to think, more and more,"
+"We have much to thank You for."
 }
 }
-
