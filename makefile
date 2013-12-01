@@ -4,7 +4,8 @@ HeavenOpen.pdf BackToMe.pdf
 # These ones don't.
 all=$(live) Gracious.pdf OrgRoseleaf.pdf AndinTruthOrig.pdf TurnThineEyes.pdf \
 OWalyWaly.pdf non-free/PowerOfTheCross.pdf StCatherine.pdf JesuJoy.pdf ICanButTell.pdf non-free/SpeakOLord.pdf \
-non-free/AliceMRTheme.pdf
+non-free/AliceMRTheme.pdf non-free/OChurchArise.pdf ICanButTell2.pdf non-free/FromTheSqualor.pdf
+# all=$(patsubst %.ly,%.pdf,$(filter-out Template.ly Hymnal.ly,$(wildcard *.ly)))
 
 all: $(all)
 
