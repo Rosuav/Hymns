@@ -1,5 +1,5 @@
 % Theme from Alice: Madness Returns. Private transcription only.
-\include "Hymnal.ly"
+\include "../Hymnal.ly"
 
 \header
 {

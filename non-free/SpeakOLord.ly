@@ -1,5 +1,5 @@
 % Keith Getty: Speak, O Lord
-\include "Hymnal.ly"
+\include "../Hymnal.ly"
 
 \header
 {

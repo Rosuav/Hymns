@@ -1,5 +1,5 @@
 % Keith Getty/Stuart Townend: The Power of the Cross
-\include "Hymnal.ly"
+\include "../Hymnal.ly"
 
 \header
 {

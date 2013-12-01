@@ -11,7 +11,7 @@ all: $(all)
 upload: $(live:%.pdf=upload/%)
 
 %.pdf: %.ly
-	lilypond -fpdf -fpng -dresolution=120 $<
+	cd $(@D) && lilypond -fpdf -fpng -dresolution=120 $(<F)
 
 upload/%: %.pdf
 	upl $*|ftp -n gideon.kepl.com.au
