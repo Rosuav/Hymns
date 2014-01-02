@@ -1,6 +1,5 @@
 *.pdf
 *.png
-*.mid
+*.mid?
 upl.cmd
 upload
-
