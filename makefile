@@ -2,8 +2,8 @@
 live=Roseleaf.pdf LetHerGo.pdf LetHerGo2.pdf AndinTruth.pdf Variables.pdf Bovigny.pdf Mirlemont.pdf Mirlemont2.pdf \
 HeavenOpen.pdf BackToMe.pdf
 # These ones don't.
-all=$(live) Gracious.pdf OrgRoseleaf.pdf AndinTruthOrig.pdf TurnThineEyes.pdf \
-OWalyWaly.pdf non-free/PowerOfTheCross.pdf StCatherine.pdf JesuJoy.pdf ICanButTell.pdf non-free/SpeakOLord.pdf \
+all=$(live) Gracious.pdf TurnThineEyes.pdf \
+non-free/PowerOfTheCross.pdf StCatherine.pdf JesuJoy.pdf ICanButTell.pdf non-free/SpeakOLord.pdf \
 non-free/AliceMRTheme.pdf non-free/OChurchArise.pdf ICanButTell2.pdf non-free/FromTheSqualor.pdf
 # all=$(patsubst %.ly,%.pdf,$(filter-out Template.ly Hymnal.ly,$(wildcard *.ly)))
 
