@@ -5,19 +5,19 @@
 \header
 {
 	title="Hail to the Lord of our land"
-	subtitle="[words title]"
-	% poet=""
+	poet="J Comyns Carr, altd Chris Angelico"
 	composer="Sir Arthur Sullivan" % circa 1898
 	arranger="arr Chris Angelico" % 2014-01-03
 	% meter="" ??
 	% piece="" ??
+	copyright=\markup { \smaller "Original music copyright Robin Gordon-Powell - permission pending" }
 }
 
 \score {
 	<<
 		\new ChordNames {
 			\set chordChanges = ##t
-			\transpose c c,
+			\transpose d a,
 			\chordmode {
 				d2. a4 d2 d d a d d
 				e:m7 g d d e4:m7 g e:m7 g d2 d
@@ -31,10 +31,10 @@
 		}
 		\new Staff <<
 			\set Staff.midiInstrument = "acoustic grand"
-			\key d \major
+			\key a \major
 			\time 4/4
 			\tempo "" 4 = 120
-			\new Voice = "sops" \relative f' {
+			\new Voice = "sops" \transpose d a, \relative f' {
 				% r1
 				\voiceOne
 				d'2. a8. a16 fs4 fs8. g16 a2 d4 d8. d16 a4 a4 fs'1
@@ -47,16 +47,16 @@
 				d2. a8. a16 fs4 fs8. g16 a2 d4 d8. d16 e4 a d,1
 			}
 			\addlyrics { \lyr \lyricmode {
-				!Hail to the Lord of our land! Phi- lip of Mirle- mont, Hail!
+				!Hail to the Lord of our land! Je- sus, our Sav- iour, hail!
 				!Here as thy liege- men we stand, Rea- dy to ans- wer thy call.
 				!Heed- less of what may be- fall,
 				!Fear- less of heart, for we know,
 				!Whi- ther- so- e'er- we go,
 				!Thou shalt not fal- ter nor fail.
 				!Thou shalt not fal- ter nor fail.
-				!Hail to the Lord of our land! Phi- lip of Mirle- mont, Hail!
+				!Hail to the Lord of our land! Je- sus, our Sav- iour, hail!
 			} }
-			\new Voice = "alto" \relative f' {
+			\new Voice = "alto" \transpose d a, \relative f' {
 				% s1 % The same rest, but as a spacer so it doesn't print
 				\voiceTwo
 				a2. e8. e16 d4 d8. d16 fs2 fs4 fs8. fs16 e4 e4 a1
@@ -71,8 +71,8 @@
 		>>
 		\new Staff <<
 			\clef bass
-			\key d \major
-			\new Voice = "tenor" \relative c' {
+			\key a \major
+			\new Voice = "tenor" \transpose d a, \relative c' {
 				% r1
 				\voiceOne
 				fs,2. a8. a16 fs4 fs8. g16 a2 a4 a8. a16 cs4 cs4 d1
@@ -84,7 +84,7 @@
 				cs2 b4 b e e8. d16 cs1
 				fs,2. a8. a16 fs4 fs8. g16 d'2 d4 d8. d16 d4 cs a1
 			}
-			\new Voice = "bass" \relative c' {
+			\new Voice = "bass" \transpose d a, \relative c' {
 				% s1
 				\voiceTwo
 				d,2. cs8. cs16 d4 d8. d16 d2 d4 d8. d16 a'4 a4 d,1
