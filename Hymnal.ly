@@ -11,7 +11,10 @@
 
 \paper
 {
-    oddFooterMarkup=\markup { \fill-line { \smaller "From Rosuav's Hymns, http://rosuav.com/hymns/ - rendered by GNU Lilypond" } }
+	oddFooterMarkup = \markup { \column {
+		\fill-line { \fromproperty #'header:copyright }
+		\fill-line { \smaller "From Rosuav's Hymns, http://rosuav.com/hymns/ - rendered by GNU Lilypond" }
+	} }
 }
 
 %{
