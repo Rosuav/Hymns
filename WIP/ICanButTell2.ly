@@ -1,6 +1,6 @@
 % Laine "I can but tell I knelt and prayed"
 % Words from Cyber Hymnal
-\include "Hymnal.ly"
+\include "../Hymnal.ly"
 
 \header
 {

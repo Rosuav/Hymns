@@ -1,5 +1,5 @@
 % Laine "I can but tell I knelt and prayed"
-\include "Hymnal.ly"
+\include "../Hymnal.ly"
 
 \header
 {
