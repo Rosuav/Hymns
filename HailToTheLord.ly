@@ -1,5 +1,5 @@
 % Hail to the Lord of our Land!
-% Copyright status not yet clarified; not for publication (yet).
+% Words altered from the original
 \include "Hymnal.ly"
 
 \header
@@ -8,9 +8,7 @@
 	poet="J Comyns Carr, altd Chris Angelico"
 	composer="Sir Arthur Sullivan" % circa 1898
 	arranger="arr Chris Angelico" % 2014-01-03
-	% meter="" ??
-	% piece="" ??
-	copyright=\markup { \smaller "Original music copyright Robin Gordon-Powell - permission pending" }
+	copyright=\markup { \smaller "Original music copyright Robin Gordon-Powell - Used with permission" }
 }
 
 \score {
