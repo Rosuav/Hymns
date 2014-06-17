@@ -16,7 +16,7 @@
 	<<
 		\new ChordNames {
 			\set chordChanges = ##t
-			\transpose c c,
+			\transpose e f,
 			\chordmode {
 				e4. e8 b4:7 e b1:7
 				% Verse
@@ -32,10 +32,10 @@
 		}
 		\new Staff <<
 			\set Staff.midiInstrument = "acoustic grand"
-			\key e \major
+			\key f \major
 			\time 4/4
 			\tempo "" 4 = 120
-			\new Voice = "lyrics" \relative f' {
+			\new Voice = "lyrics" \transpose e f \relative f' {
 				r1 r2 r4
 				% Verse
 				\override Staff.NoteHead #'style = #'cross
