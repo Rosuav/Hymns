@@ -18,7 +18,7 @@
 			\set chordChanges = ##t
 			\transpose c c,
 			\chordmode {
-				e2 b4:7 e b1:7
+				e4. e8 b4:7 e b1:7
 				% Verse
 				e a cs2:m7 fs:9 b1:7 e2. e4:7 a2 as:dim7 g:7 fs4:m7 b e1
 				gs:m cs:m fs cs2:11 b:7 e2. e4:7 a2 as:dim7 s1 g4:7 cs:7 fs:m7 b:7 e1
@@ -26,6 +26,8 @@
 				a e gs2:m cs:m fs:m7 b:7 e2. e4/gs a2 fs g4:7 cs:7 fs:m7 b
 				% Sodium
 				e2 fs4:m e a2 b e fs b:sus4 b
+				% Verse
+				e2. e4:7 a1 cs2:m7 fs:9 b1 e2 e:7 a fs/as g4:7 cs:7 fs:m7 b:7 e1
 			}
 		}
 		\new Staff <<
@@ -59,6 +61,16 @@
 				gs8 % s/be "<< { gs8 } \\ { e2 } >>" but lyrics don't attach to it
 				gs4 gs8 fs4 e cs e ds cs b gs' fs as b2
 				r4
+				% Verse
+				e,8 fs gs gs gs gs fs e r
+				\override Staff.NoteHead #'style = #'cross
+				b'8 b b b b b b
+				\override Staff.NoteHead #'style = #'default
+				r cs, b b b e gs gs fs e ds fs4 r r8
+				\override Staff.NoteHead #'style = #'cross
+				b b b b b b b4 b8 b b b b b b4
+				\override Staff.NoteHead #'style = #'default
+				r8 cs b b b gs a fs e ds fs e4.
 			}
 			\addlyrics { \lyr \lyricmode {
 				!HOOK:_I'm ma- li- cious, mean, and scar- y,
@@ -79,6 +91,12 @@
 				!you could count me with the dream- ers.
 				!Like ev- 'ry- bod- y else, I've got a
 				!dream._Na na na na na na na na na na na na na na.
+				!BIG_NOSE:_I've got scars and lumps and bruis- es,
+				!plus some- thing here that ooz- es,
+				!and let's not e- ven men- tion my com- pex- ion.
+				!But de- spite my ex- tra toes
+				!and my goi- ter, and my nose,
+				!I real- ly want to make a love con- nec- tion.
 			} }
 		>>
 	>>
