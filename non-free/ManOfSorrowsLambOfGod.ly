@@ -35,7 +35,7 @@
 			\tempo "" 4 = 120
 			\new Voice = "sops" \relative f' {
 				f4. g8 a8.( c16) c4 d c a
-				r8 c d4. c8 a4. g8 ~ g g4.
+				r8 c d4. c8 a4. f8( g) g4.
 				r4 r8 f f4. g8 a8.( c16) c4 d f a, r8
 				c d4. c8 a16( g8. ~ g8) f ~ f f4.
 				
