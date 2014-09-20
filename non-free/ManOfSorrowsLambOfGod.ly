@@ -15,7 +15,7 @@
 	<<
 		\new ChordNames {
 			\set chordChanges = ##t
-			\transpose c c,
+			\transpose f ef,
 			\chordmode {
 				f1 bf2 f
 				bf f c1
@@ -30,10 +30,10 @@
 		}
 		\new Staff <<
 			\set Staff.midiInstrument = "Flute"
-			\key f \major
+			\key ef \major
 			\time 4/4
 			\tempo "" 4 = 120
-			\new Voice = "sops" \relative f' {
+			\new Voice = "sops" \transpose f ef \relative f' {
 				f4. g8 a8.( c16) c4 d c a
 				r8 c d4. c8 a4. f8( g) g4.
 				r4 r8 f f4. g8 a8.( c16) c4 d f a, r8
