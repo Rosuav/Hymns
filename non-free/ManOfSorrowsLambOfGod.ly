@@ -91,7 +91,7 @@
 		>>
 		\new Staff <<
 			\clef bass
-			\key f \major
+			\key ef \major
 			\new Voice = "accomp3" \relative c, {
 				s1 s s s
 				s s s s
