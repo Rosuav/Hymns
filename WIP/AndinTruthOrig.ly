@@ -1,6 +1,6 @@
 % Instant hymn file, just add content!
 % Beauty Stone new score, page 84
-\include "Hymnal.ly"
+\include "../Hymnal.ly"
 
 \header
 {
