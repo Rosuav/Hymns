@@ -17,6 +17,7 @@
 		\new ChordNames {
 			\set chordChanges = ##t
 			\transpose c c,
+			% \set ChordNames.midiInstrument = "flute"
 			\chordmode {
 				s2..
 				af8 bf4:m bf:m af:7 af:7 c:m af:7 bf:m bf:m
@@ -80,4 +81,5 @@
 	>>
 	\layout { }
 	\midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+	% \midi { } % TODO: Fix chords
 }
