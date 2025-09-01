@@ -2,7 +2,7 @@
 live=Roseleaf.pdf LetHerGo.pdf LetHerGo2.pdf AndinTruth.pdf Variables.pdf Bovigny.pdf Mirlemont.pdf Mirlemont2.pdf \
 HeavenOpen.pdf BackToMe.pdf HailToTheLord.pdf
 # These ones don't.
-all=$(live) Gracious.pdf Martyrdom.pdf Dormouse.pdf \
+all=$(live) Gracious.pdf Martyrdom.pdf Dormouse.pdf Chord.pdf \
 non-free/PowerOfTheCross.pdf StCatherine.pdf JesuJoy.pdf WIP/ICanButTell.pdf non-free/SpeakOLord.pdf \
 non-free/AliceMRTheme.pdf non-free/OChurchArise.pdf WIP/ICanButTell2.pdf non-free/FreelyFreely.pdf non-free/FromTheSqualor.pdf \
 non-free/IveGotADream.pdf WIP/ICanButTell3.pdf non-free/ManOfSorrowsLambOfGod.pdf non-free/JesusThankYou.pdf WIP/BowThyHead.pdf
