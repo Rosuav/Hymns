@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Roseleaf, by Sir Arthur Sullivan
 % Needs some words to be written for it. 7.9.7.9 meter.
 \include "Hymnal.ly"
@@ -93,6 +94,6 @@
         >>
     >>
     \layout { }
-    \midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+    \midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
 }
 

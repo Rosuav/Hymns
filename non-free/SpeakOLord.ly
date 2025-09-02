@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Keith Getty: Speak, O Lord
 \include "../Hymnal.ly"
 
@@ -48,12 +49,12 @@
 		>>
 	>>
 	\layout { }
-	% \midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+	% \midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
 	\midi { }
 }
 \markup \fill-line {
 \column {
-\wordwrap-string #"
+\wordwrap-string "
 2. Teach us, Lord, full obedience,
 
 Holy reverence, true humility;
@@ -72,7 +73,7 @@ Let their truth prevail over unbelief.
 "
 }
 \column {
-\wordwrap-string #"
+\wordwrap-string "
 3. Speak, O Lord, and renew our minds;
 
 Help us grasp the heights of Your plans for us—

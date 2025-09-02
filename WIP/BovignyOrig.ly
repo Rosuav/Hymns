@@ -1,3 +1,4 @@
+\version "2.24.0"
 % As to that, we would reply
 \include "Hymnal.ly"
 
@@ -85,6 +86,6 @@
         >>
     >>
     \layout { }
-    % \midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+    % \midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
     \midi { } % Sound the chords
 }

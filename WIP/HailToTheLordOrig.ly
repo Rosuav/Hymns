@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Hail to the Lord of our Land!
 \include "Hymnal.ly"
 
@@ -98,5 +99,5 @@
 		>>
 	>>
 	\layout { }
-	\midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+	\midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
 }

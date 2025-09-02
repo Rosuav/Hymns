@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Roseleaf, by Sir Arthur Sullivan
 \include "Hymnal.ly"
 
@@ -19,7 +20,7 @@
             \set chordChanges = ##t
             \transpose c c,
             \chordmode {
-                \override ChordName #'font-size = #-2
+                \override ChordName.font-size = #-2
                 r2. r2.
                 % (How) vast the
                 r r r d:7 g g d:7 d:7
@@ -52,7 +53,7 @@
             }
             % Lyrics courtesy of Cyber Hymnal, http://nethymnal.org/htm/h/v/hvasttbd.htm
             \addlyrics { \lyr \lyricmode {
-                \override LyricText #'font-size = #-2
+                \override LyricText.font-size = #-2
 		\set stanza = #"1."
                 !How vast the be- ne- fits di- vine
                 !which we in Christ po- ssess!
@@ -65,7 +66,7 @@
                 !sal- va- tion to be- stow.
             } }
             \addlyrics { \lyr \lyricmode {
-                \override LyricText #'font-size = #-2
+                \override LyricText.font-size = #-2
 		\set stanza = #"2."
                 !The glo- ry, Lord, from first to last,
                 !is due to You a- lone;
@@ -77,7 +78,7 @@
                 !be- fore the world be- gan.
             } }
             \addlyrics { \lyr \lyricmode {
-                \override LyricText #'font-size = #-2
+                \override LyricText.font-size = #-2
 		\set stanza = #"3."
                 !This is Your will, that in Your love
                 !we al- ways should a- bide;
@@ -131,6 +132,6 @@
         >>
     >>
     \layout { }
-    \midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+    \midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
 }
 

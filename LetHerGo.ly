@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Let Her Go, by Sir Arthur Sullivan
 \include "Hymnal.ly"
 
@@ -20,7 +21,7 @@
             \set chordChanges = ##t
             \transpose c c,
             \chordmode {
-                \override ChordName #'font-size = #-2
+                \override ChordName.font-size = #-2
                 s2.
                 % My hope is in
                 g2 g4:dim g2. g g g ef:dim e:m a:m
@@ -43,7 +44,7 @@
             }
             % Words by Fanny Crosby, courtesy of Cyber Hymnal (also see Mission Praise #22).
             \addlyrics { \lyr \lyricmode {
-                \override LyricText #'font-size = #-1
+                \override LyricText.font-size = #-1
 		\set stanza = #"1."
                 !All the way my Sav- ior leads me;
                 !what have I to ask be- side?
@@ -55,7 +56,7 @@
                 !Je- sus do- eth all things well.
             } }
             %{ \addlyrics { \lyr \lyricmode {
-                \override LyricText #'font-size = #-1
+                \override LyricText.font-size = #-1
                 !All the way my Sav- ior leads me,
                 !Cheers each wind- ing path I tread;
                 !Gives me grace for ev- ery tri- al,
@@ -66,11 +67,11 @@
                 !Lo! A spring of joy I see.
             } }
             \addlyrics { \lyr \lyricmode {
-                \override LyricText #'font-size = #-1
+                \override LyricText.font-size = #-1
                 !All the way my Sav- ior leads me
                 !O the full- ness of His love!
                 !Per- fect rest to me is pro- mised
-                !In my Fa- ther’s house a- bove.
+                !In my Fa- therÂ’s house a- bove.
                 !When my spi- rit, clothed im- mor- tal,
                 !Wings its flight to realms of day
                 !This my song through end- less a- ges:
@@ -107,7 +108,7 @@
         >>
     >>
     \layout { }
-    \midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+    \midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
 }
 
 % Additional verses

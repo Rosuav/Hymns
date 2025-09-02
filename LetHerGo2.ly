@@ -1,5 +1,6 @@
 % Let Her Go, by Sir Arthur Sullivan
 % Words from Rejoice! #603 or RCH #595
+\version "2.24.0"
 \include "Hymnal.ly"
 
 \header
@@ -21,7 +22,7 @@
             \set chordChanges = ##t
             \transpose c c,
             \chordmode {
-                \override ChordName #'font-size = #-2
+                \override ChordName.font-size = #-2
                 s2.
                 % Jerusalem
                 g2 g4:dim g2. g g g ef:dim e:m a:m
@@ -44,7 +45,7 @@
             }
             % Words from Rejoice! #603
             \addlyrics { \lyr \lyricmode {
-                \override LyricText #'font-size = #-1
+                \override LyricText.font-size = #-1
                 \set stanza = #"1."
                 !Je- ru- sa- lem the gol- den               % RCH #599
                 !With milk and ho- ney blest,
@@ -65,7 +66,7 @@
                 !what peace be- yond com- pare!%}
             } }
             \addlyrics { \lyr \lyricmode {
-                \override LyricText #'font-size = #-1
+                \override LyricText.font-size = #-1
                 \set stanza = #"2."
                 !They stand, those halls of Zi- on,
                 !Con- ju- bi- lant with song,
@@ -116,7 +117,7 @@
         >>
     >>
     \layout { }
-    \midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+    \midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
 }
 
 % Additional verses

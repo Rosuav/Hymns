@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Freely, Freely (God forgave my sin)
 % From Resource Christian Music #280, arranged for chords and two fingers
 \include "../Hymnal.ly"
@@ -79,5 +80,5 @@
 		>>
 	>>
 	\layout { }
-	\midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+	\midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
 }

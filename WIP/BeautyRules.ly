@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Beauty Rules, by Sir Arthur Sullivan
 % lilypond -fpdf -fpng -dresolution=120 BeautyRules.ly
 \include "Hymnal.ly"
@@ -21,7 +22,7 @@
             \set chordChanges = ##t
             \transpose c c,
             \chordmode {
-                \override ChordName #'font-size = #-2
+                \override ChordName.font-size = #-2
                 r2 r4
                 f4
             }
@@ -41,7 +42,7 @@
             }
             % Original words by Pinero/Carr
             \addlyrics { \lyr \lyricmode {
-                \override LyricText #'font-size = #-1
+                \override LyricText.font-size = #-1
                 !With soft eyes ha- zel or grey,
                 !With tres- ses gol- den or brown,
                 !'Tis Beau- ty that rules ye to- day,
@@ -78,6 +79,6 @@
         >>
     >>
     \layout { }
-    \midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+    \midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
 }
 

@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Laine's Prayer
 % F  C7     F     C7     F F7   G7
 % Mother of Jesu, at thy feet I cry
@@ -87,7 +88,7 @@
         >>
     >>
     \layout { }
-    % \midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+    % \midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
     \midi { }
 }
 

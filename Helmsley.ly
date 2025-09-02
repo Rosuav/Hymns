@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Helmsley: "Lo! He comes, with clouds descending"
 \include "Hymnal.ly"
 
@@ -84,7 +85,7 @@
         >>
     >>
     \layout { }
-    \midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+    \midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
     % \midi { }
 }
 

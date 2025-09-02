@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Instant hymn file, just add content!
 % Beauty Stone new score, page 84
 \include "../Hymnal.ly"
@@ -93,6 +94,6 @@
     >>
     \layout { }
     % \midi { }
-    \midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+    \midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
 }
 

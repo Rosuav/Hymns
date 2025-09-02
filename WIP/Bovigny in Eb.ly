@@ -1,3 +1,4 @@
+\version "2.24.0"
 % As to that, we would reply
 % Words from RCH #574 or #193
 \include "Hymnal.ly"
@@ -83,7 +84,7 @@
         >>
     >>
     \layout { }
-    % \midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+    % \midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
     \midi { } % Sound the chords
 }
 

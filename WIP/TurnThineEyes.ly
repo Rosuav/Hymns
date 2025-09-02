@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Oh, turn thine eyes away - chorus words (orig score p77)
 \include "Hymnal.ly"
 
@@ -118,5 +119,5 @@
 		>>
 	>>
 	\layout { }
-	\midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+	\midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
 }

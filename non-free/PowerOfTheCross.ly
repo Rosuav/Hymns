@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Keith Getty/Stuart Townend: The Power of the Cross
 \include "../Hymnal.ly"
 
@@ -95,6 +96,6 @@
 		>>
 	>>
 	\layout { }
-	% \midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+	% \midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
 	\midi { }
 }

@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Jesu, Joy of Man's Desiring by JS Bach
 \include "Hymnal.ly"
 

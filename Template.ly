@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Instant hymn file, just add content!
 \include "Hymnal.ly"
 
@@ -51,7 +52,7 @@
 		>>
 	>>
 	\layout { }
-	\midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+	\midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
 }
 
 % Additional verses

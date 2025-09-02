@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Theme from Alice: Madness Returns. Private transcription only.
 \include "../Hymnal.ly"
 

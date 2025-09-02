@@ -1,3 +1,4 @@
+\version "2.24.0"
 % St Catherine, as sung with words such as "My hope is built on nothing less" and "Faith of our fathers, holy faith"
 \include "Hymnal.ly"
 
@@ -63,6 +64,6 @@
 		>>
 	>>
 	\layout { }
-	% \midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+	% \midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
 	\midi { }
 }

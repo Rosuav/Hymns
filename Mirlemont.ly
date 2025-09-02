@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Look where yonder sun is gleaming
 % Original score, p169 (ish)
 % Words: RCH #523
@@ -84,7 +85,7 @@
 		>>
 	>>
 	\layout { }
-	\midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+	\midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
 }
 
 % Additional verses

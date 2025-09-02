@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Let Her Go, by Sir Arthur Sullivan
 % lilypond -fpdf -fpng -dresolution=120 LetHerGo.ly
 \include "Hymnal.ly"
@@ -20,7 +21,7 @@
             \set chordChanges = ##t
             \transpose c c,
             \chordmode {
-                \override ChordName #'font-size = #-2
+                \override ChordName.font-size = #-2
                 r2 r4
                 % My hope is in
                 g2 g4:dim g2. r r g ef:dim e:m a:m
@@ -43,7 +44,7 @@
             }
             % Lyrics transcribed from Rejoice! hymnal (#425).
             \addlyrics { \lyr \lyricmode {
-                \override LyricText #'font-size = #-2
+                \override LyricText.font-size = #-2
                 !My hope is in the Lord
                 !who gave Him- self for me,
                 !and paid the price of all
@@ -54,7 +55,7 @@
                 !in Je- sus' right- eous- ness.
             } }
             \addlyrics { \lyr \lyricmode {
-                \override LyricText #'font-size = #-2
+                \override LyricText.font-size = #-2
                 !And now for me He stands
                 !be- fore the Fa- ther's throne,
                 !and shows His wound- ed hands,
@@ -95,6 +96,6 @@
         >>
     >>
     \layout { }
-    \midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+    \midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
 }
 

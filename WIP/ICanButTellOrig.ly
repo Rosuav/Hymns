@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Laine "I can but tell I knelt and prayed"
 \include "Hymnal.ly"
 
@@ -59,5 +60,5 @@
 		>>
 	>>
 	\layout { }
-	\midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+	\midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
 }

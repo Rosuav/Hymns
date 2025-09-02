@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Revelation 19: I saw heaven standing open
 % Also 2 Peter 3:4, Philippians 2:10-11
 \include "Hymnal.ly"
@@ -250,6 +251,6 @@
 			>>
 		>>
 	>>
-	\layout { \context { \RemoveEmptyStaffContext } \context { \Score \override VerticalAxisGroup #'remove-first = ##t } }
-	\midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+	\layout { \context { \Staff \RemoveEmptyStaves } \context { \Score \override VerticalAxisGroup.remove-first = ##t } }
+	\midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
 }

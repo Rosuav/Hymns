@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Beauty Stone new score, page 84
 % lilypond -fpdf -fpng -dresolution=120 AndinTruth.ly
 % Words from RCH #341
@@ -110,7 +111,7 @@
         >>
     >>
     \layout { }
-    \midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+    \midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
 }
 % Additional verses
 \markup \fill-line {

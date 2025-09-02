@@ -1,3 +1,4 @@
+\version "2.24.0"
 \include "Hymnal.ly"
 
 % Attempt at generic handbell-compatible scoring.
@@ -36,8 +37,8 @@ yellow = #(rgb-color 1 1 0)
                 \stemUp
                 s2
                 % Arrange to obtain color from procedure above
-                \override NoteHead #'color = #bell-color
-                \override Stem #'color = #bell-color
+                \override NoteHead.color = #bell-color
+                \override Stem.color = #bell-color
                 c8(d8) e2 e4 g4.(f8) e4 d4.(e8) f4 e2
                 r4
             }

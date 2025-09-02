@@ -1,3 +1,4 @@
+\version "2.24.0"
 % Yet it ever comes back to me
 % Words taken from http://www.cyberhymnal.org/htm/i/s/isingthe.htm - s/be out of copyright - not found in RCH though
 \include "Hymnal.ly"
@@ -80,7 +81,7 @@
 		>>
 	>>
 	\layout { }
-	\midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+	\midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
 	% \midi { }
 }
 

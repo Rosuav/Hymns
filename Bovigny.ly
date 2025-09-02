@@ -1,3 +1,4 @@
+\version "2.24.0"
 % As to that, we would reply
 % Words from RCH #574 or #193
 \include "Hymnal.ly"
@@ -42,7 +43,7 @@
 		d8 ef2.
             }
             \addlyrics { \lyr \lyricmode {
-		\override LyricText #'font-size = #-1
+		\override LyricText.font-size = #-1
 		\set stanza = #"1."
                 !Ho- ly Spi- rit, truth di- vine, dawn u- pon this soul of mine;
 		!Word of God, and in- ward Light, wake my spi- rit, clear my sight.
@@ -50,7 +51,7 @@
 		!Kin- dle ev- ery high de- sire; pe- rish self in Thy pure fire.
             } }
 	    \addlyrics { \lyr \lyricmode {
-		\override LyricText #'font-size = #-1
+		\override LyricText.font-size = #-1
 		\set stanza = #"2."
 		!Ho- ly Spi- rit, power di- vine, fill and nerve this will of mine;
 		!By Thee may I strong- ly live, brave- ly bear, and no- bly strive.
@@ -89,7 +90,7 @@
         >>
     >>
     \layout { }
-    % \midi { \context { \ChordNameVoice \remove Note_performer } } % Stop chords from sounding in the MIDI
+    % \midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
     \midi { } % Sound the chords
 }
 
