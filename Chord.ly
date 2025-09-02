@@ -30,7 +30,7 @@
 			{
 				\new Voice = "accomp" \relative f' {
 					r4 c f e d d g f c' bf a c
-					f e d c c a g f e g a c bf a g2 f2 a,4 g f'1
+					f e d c c a g f e g a c bf a g e f2 a,4 g f'1
 				}
 				\new Voice = "melody" \relative f' {
 					% Verse one
@@ -44,6 +44,6 @@
 		>>
 	>>
 	\layout { }
-	%\midi { }
-	\midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
+	\midi { }
+	% \midi { \context { \ChordNames \remove Note_performer } } % Stop chords from sounding in the MIDI
 }
