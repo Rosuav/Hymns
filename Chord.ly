@@ -26,15 +26,19 @@
 			\key f \major
 			\time 4/4
 			\tempo "" 4 = 120
-			\new Voice = "melody" \relative f' {
-				s1 s1 s1 s1 s1 s1 s1 s1 s1 % TODO: Put in a simple melody lifted from the accompaniment
-				% Verse one
-				f4 f8 f8 f4 f8 f8 f4 f4 s4 f8 f f4 f8 f g4. g8 a2
+			{
+				\new Voice = "accomp" \relative f' {
+					s1 s1 s1 s1 s1 s1 s1 s1 s1 % TODO: Put in a simple melody lifted from the accompaniment
+				}
+				\new Voice = "melody" \relative f' {
+					% Verse one
+					f4 f8 f8 f4 f8 f8 f4 f4 s4 f8 f f4 f8 f g4. g8 a2
+				}
+				\addlyrics { \lyr \lyricmode {
+					!Sea- ted one day at the or- gan,
+					!I was wea- ry and ill at ease,
+				} }
 			}
-			\addlyrics { \lyr \lyricmode {
-				!Sea- ted one day at the or- gan,
-				!I was wea- ry and ill at ease,
-			} }
 		>>
 	>>
 	\layout { }
