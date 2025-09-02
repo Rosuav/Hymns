@@ -28,7 +28,8 @@
 			\tempo "" 4 = 120
 			{
 				\new Voice = "accomp" \relative f' {
-					s1 s1 s1 s1 s1 s1 s1 s1 s1 % TODO: Put in a simple melody lifted from the accompaniment
+					r4 c f e d d g f c' bf a c
+					f e d c c a g f e g a c bf a g2 f1 f1
 				}
 				\new Voice = "melody" \relative f' {
 					% Verse one
