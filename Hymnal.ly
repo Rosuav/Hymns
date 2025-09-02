@@ -2,8 +2,7 @@
 % Tip: Make bitmapped output with lilypond -fpng foo.ly
 % Make it 300dpi (or any other figure) with lilypond -fpng -dresolution=300 foo.ly
 
-% Do I need this in every top-level file, or just here? Or both?
-\version "2.12.2"
+\version "2.24.0"
 
 \pointAndClickOff
 \include "english.ly"
@@ -31,17 +30,17 @@
 
     and turns them into
 
-    \markup \wordwrap-string #"
+    \markup \wordwrap-string "
     2. Foo bar fum
 
     Asdf qwer zxcv
     "
-    \markup \wordwrap-string #"
+    \markup \wordwrap-string "
     3. Hello world
 
     This is a test
     "
-    \markup \wordwrap-string #"
+    \markup \wordwrap-string "
     4. You get
 
     the idea
@@ -66,7 +65,7 @@
     ))
 ))
 % Call the above recursive function
-lyr=#(define-music-function (parser location lyrics) (ly:music?)
+lyr=#(define-music-function (lyrics) (ly:music?)
     (bang2slashn (ly:music-property lyrics 'elements))
     lyrics
 )

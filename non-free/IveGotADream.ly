@@ -1,7 +1,7 @@
 % "I had a dream... once" from Disney's "Tangled"
 % Transcribed from songbook and transposed from E (scored) into F (performed)
 % TODO: Make the cross-head notes not sound in the MIDI. They're non-notes.
-\version "2.14.2"
+\version "2.24.0"
 \include "../Hymnal.ly"
 
 \header
@@ -38,9 +38,9 @@
 			\new Voice = "lyrics" \transpose e f \relative f' {
 				r1 r2 r4
 				% Verse
-				\override Staff.NoteHead #'style = #'cross
+				\override Staff.NoteHead.style = #'cross
 				b8 b b b b b b b4
-				\override Staff.NoteHead #'style = #'default
+				\override Staff.NoteHead.style = #'default
 				e,8 e e e16 e8. ds8 cs4 b8 b16 b b8 b e gs gs fs e ds fs4. r4
 				b,8 b gs' gs gs gs fs4 e8 e a a a b cs4 r8
 				gs b b b b a fs e ds fs16 e e8~e4 r4
@@ -48,9 +48,9 @@
 				ds8 ds gs gs gs gs gs fs e ds e gs~gs2 r4
 				fs16 fs fs4 fs8 gs fs e ds fs2 r4
 				b8 e, gs gs gs gs fs e r e16 e
-				\override Staff.NoteHead #'style = #'cross
+				\override Staff.NoteHead.style = #'cross
 				b'8 b b b b b
-				\override Staff.NoteHead #'style = #'default
+				\override Staff.NoteHead.style = #'default
 				r4 r2 e8 cs~cs8. gs16 b8 b b gs a fs e ds e2
 				% Chorus
 				r8 e fs gs a2 r8 cs b a gs2 r4
@@ -63,13 +63,13 @@
 				r4
 				% Verse
 				e,8 fs gs gs gs gs fs e r
-				\override Staff.NoteHead #'style = #'cross
+				\override Staff.NoteHead.style = #'cross
 				b'8 b b b b b b
-				\override Staff.NoteHead #'style = #'default
+				\override Staff.NoteHead.style = #'default
 				r cs, b b b e gs gs fs e ds fs4 r r8
-				\override Staff.NoteHead #'style = #'cross
+				\override Staff.NoteHead.style = #'cross
 				b b b b b b b4 b8 b b b b b b4
-				\override Staff.NoteHead #'style = #'default
+				\override Staff.NoteHead.style = #'default
 				r8 cs b b b gs a fs e ds fs e4.
 			}
 			\addlyrics { \lyr \lyricmode {

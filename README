@@ -9,3 +9,12 @@ The PDF, PNG, and MIDI files in this repository are included for convenience,
 but may be regenerated at any time from the Lilypond sources. Note that
 the uploader script is deliberately not included in this repository, so the
 'make upload' command will not work. Sorry!
+
+
+NOTE: If there are any issues with Lilypond version, try this:
+
+    $ convert-ly -e *.ly **/*.ly
+    $ rm *.ly~ **/*.ly~
+
+This should update the files as needed, including their version markers. Check
+the diff before committing but it should normally be safe.
