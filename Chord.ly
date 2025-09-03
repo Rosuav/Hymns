@@ -35,10 +35,21 @@
 				\new Voice = "melody" \relative f' {
 					% Verse one
 					f4 f8 f8 f4 f8 f8 f4 f4 s4 f8 f f4 f8 f g4. g8 a2
+					r4 f8 f bf4. bf8 bf4 bf a2 g f4 g8 a g4 f e2
+					r4 c d ds e f8 f a4 g r e fs gs8 gs a4 b c2
+					r4 c,8 c a'4 bf c a f g a bf a g8 f g4 e f2
+					g4 g bf2 a4 f f8( e f d) g2 f2. r4
 				}
 				\addlyrics { \lyr \lyricmode {
 					!Sea- ted one day at the or- gan,
 					!I was wea- ry and ill at ease,
+					!And my fin- gers wan- der'd i- dly
+					!O- ver the noi- sy keys;
+					!I know not what I was play- ing,
+					!Or what I was dream- ing then,
+					!But I struck one chord of mu- sic
+					!like the sound of a great A- men,
+					!Like the sound of a great A- men.
 				} }
 			}
 		>>
