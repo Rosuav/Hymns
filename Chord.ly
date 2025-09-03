@@ -19,7 +19,9 @@
 				% CJA 20250902: Using parens for uncertain notation, may or may not need these ones.
 				% Clean this up later and use the parens correctly.
 				f1 bf2 g4:m \parenthesize g:m7 c2. c4:7 f2 g:m f g:m c f c1:7 f/bf f
-				f1 d:m f2 c:7 f1
+				f1 d:m f2 c:7 f1 bf2 bf f bf f \parenthesize g c
+				c \parenthesize d:m c f4 c c2 fs:7 a:m a:m bf4 c
+				f2 a:m bf f f g:m bf \parenthesize ef bf d:m f c:7 f1
 			}
 		}
 		\new Staff <<
