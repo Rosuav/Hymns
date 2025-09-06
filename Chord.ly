@@ -23,8 +23,11 @@
 				f1 d:m f2 c:7 f1 bf2 bf f bf f g c
 				c \parenthesize d:m c f4 c c2 fs:7 a:m a:m bf4 c
 				f2 a:m bf f f g:m bf ef bf d:m f c:7 f1
-				bf2 g:m 
+				bf2 g:m c:7 a:m f g:m7 f1
 				% Verse two
+				f1 d:m f2 c:7 f2. f4:7 bf2 bf f a:m f g c c
+				\parenthesize g a:m b:dim c \parenthesize e e a:m
+				bf \parenthesize d:m a:m d:m f4 bf f2 c:7 f1
 			}
 		}
 		\new Staff <<
