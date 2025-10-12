@@ -76,7 +76,9 @@
 					f f e8 e e4 f e d r c8 c bf'2 bf4. bf8 a2 r4
 					f f e8 e e4 f8 f e4 d r d d cs8 d e4. d8 cs2 r4
 					a'8 a bf4 bf8 bf bf4. bf8 bf4 a r a gs gs gs4. gs8 g2 r4
-					g fs a8 a d4 a8 f f4 e r e d4. d8 d4 d4 e2. r4
+					g fs a8 a d4 a8 f f4 e r e d4. d8 d4 d4 e4
+					% Ideally, that last e4 should be e2. but only allocated
+					% enough space for an e4, to allow the next voice to come in.
 				}
 				\addlyrics { \lyr \lyricmode {
 					!It flood- ed the crim- son twi- light,
@@ -94,7 +96,30 @@
 					!I have sought, but I seek it vain- ly,
 					!That one lost chord di- vine,
 					!Which came from the soul of the or- gan,
-					!And en-ter'd in- to mine.
+					!And en- ter'd in- to mine.
+				} }
+				\new Voice = "accomp" \relative f' {
+					d8 d e e f f g g a a bf bf
+				}
+				\new Voice = "melody" \relative f' {
+					c4 f f8 f f4 f f f2
+					f4 f f8 f g4. g8 a2 r4
+					f bf bf8 bf bf4 bf8 bf a2
+					g4 g f g8( a) g4 f e2 r4
+					c c' c8 c a4 a f2 d4
+					d bf' bf8 bf g4 g c,2.
+					f4 f g8 g a4 c8 c f2
+					f,4 bf a2. a4 f2 g2 f1~f2. r4 r1 r1
+				}
+				\addlyrics { \lyr \lyricmode {
+					!It may be that Death's bright An- gel
+					!Will speak in that chord a- gain;
+					!It may be that on- ly in Heav'n,
+					!I shall hear that grand A- men.
+					!It may be that Death's bright An- gel
+					!Will speak in that chord a- gain;
+					!It may be that on- ly in Heav'n,
+					!I shall hear that grand A- men.
 				} }
 			}
 		>>
