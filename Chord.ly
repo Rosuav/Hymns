@@ -128,7 +128,7 @@
 					!I shall hear that grand A- men.
 				} }
 				\new Voice = "accomp" \relative f' {
-					a4 g a f bf c d f2 a,4 g a
+					a4 g a f bf c d f2 a,4 g a1
 				}
 			}
 		>>
