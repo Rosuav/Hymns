@@ -33,6 +33,12 @@
 				% Sought but I seek it vainly
 				ef:7 d:m e a:7 d2 d:m a1:7 d2:m f
 				c4:7 bf c f g:m a:m bf c:7
+				% It may be that Death's bright angel
+				f1 d:m f2 c:7 f1 bf f2 c d:m g:7 c
+				c a:m a:m d:m d:m g:m g:m c2.
+				\parenthesize f4:7 bf \parenthesize bf:dim7
+				f c:7 f2:7 bf f1 d2:m7 c f
+				f:7 f4:7 bf f bf f1 f
 			}
 		}
 		\new Staff <<
@@ -109,7 +115,7 @@
 					c c' c8 c a4 a f2 d4
 					d bf' bf8 bf g4 g c,2.
 					f4 f g8 g a4 c8 c f2
-					f,4 bf a2. a4 f2 g2 f1~f2. r4 r1 r1
+					f,4 bf a2. a4 f2 g2 f4
 				}
 				\addlyrics { \lyr \lyricmode {
 					!It may be that Death's bright An- gel
@@ -121,6 +127,9 @@
 					!It may be that on- ly in Heav'n,
 					!I shall hear that grand A- men.
 				} }
+				\new Voice = "accomp" \relative f' {
+					a4 g a f bf c d f2 a,4 g a
+				}
 			}
 		>>
 	>>
