@@ -72,6 +72,8 @@
 					c,4 a'8 a bf4 c a f( g) a bf a g8( f) g4 e f2 r4
 					f f e8 e e4 f e d r c8 c bf'2 bf4. bf8 a2 r4
 					f f e8 e e4 f8 f e4 d r d d cs8 d e4. d8 cs2 r4
+					a'8 a bf4 bf8 bf bf4. bf8 bf4 a r a gs gs gs4. gs8 g2 r4
+					g fs a8 a d4 a8 f f4 e r e d4. d8 d4 d4 e2. r4
 				}
 				\addlyrics { \lyr \lyricmode {
 					!It flood- ed the crim- son twi- light,
@@ -86,6 +88,10 @@
 					!In- to one per- fect peace,
 					!And trem- bled a- way in- to si- lence,
 					!as if it were loth to cease;
+					!I have sought, but I seek it vain- ly,
+					!That one lost chord di- vine,
+					!Which came from the soul of the or- gan,
+					!And en-ter'd in- to mine.
 				} }
 			}
 		>>
