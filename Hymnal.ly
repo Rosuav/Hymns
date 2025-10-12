@@ -12,7 +12,7 @@
 {
 	oddFooterMarkup = \markup { \column {
 		\fill-line { \fromproperty #'header:copyright }
-		\fill-line { \smaller "From Rosuav's Hymns, http://rosuav.com/hymns/ - rendered by GNU Lilypond" }
+		\fill-line { \smaller "From Rosuav's Hymns, https://rosuav.com/hymns/ - rendered by GNU Lilypond" }
 	} }
 }
 
