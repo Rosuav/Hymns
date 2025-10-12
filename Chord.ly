@@ -29,7 +29,10 @@
 				\parenthesize g a:m b:dim c \parenthesize e e a:m
 				bf \parenthesize d:m a:m d:m f4 bf f2 c:7 f1
 				\parenthesize d2:m \parenthesize f g:7 f f:7 c:7 d:m
-				f:7 d:m c g1 e2 e a
+				f:7 d:m c g1 e2 e a1
+				% Sought but I seek it vainly
+				ef:7 d:m e a:7 d2 d:m a1:7 d2:m f
+				c4:7 bf c f g:m a:m bf c:7
 			}
 		}
 		\new Staff <<
