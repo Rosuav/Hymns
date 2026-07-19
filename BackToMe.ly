@@ -20,27 +20,27 @@
 			\set chordChanges = ##t
 			\transpose c c,
 			\chordmode {
-				s4 e
+				s2 e
 				b:7 b:7 e e b:7 b:7 e
-				e b b e8 e:7 c c
-				e4 b e a e fs:m e
+				e b b e4 e:7 c c
+				e2 b e a e fs:m e
 			}
 		}
 		\new Staff <<
 			\set Staff.midiInstrument = "acoustic grand"
 			\key e \major
-			\time 2/4
+			\time 4/4
 			\tempo "" 4 = 70
 			\new Voice = "sops" \relative f' {
-				r4.
+				r2.
 				\voiceOne
-				gs16(e) ds8 fs fs e16(ds) e8 gs gs
-				e fs a a gs16(fs) gs8(b4)
-				gs8 fs a a gs16(fs) gs8 b e
-				e,16(fs) gs(a) gs8 fs b, b'4.
-				a8 gs16(fs) e8 fs gs e4.
+				gs8(e) ds4 fs fs e8(ds) e4 gs gs
+				e fs a a gs8(fs) gs4(b2)
+				gs4 fs a a gs8(fs) gs4 b e
+				e,8(fs) gs(a) gs4 fs b, b'2.
+				a4 gs8(fs) e4 fs gs e2.
 				\oneVoice
-				r8
+				r4
 			}
 			\addlyrics { \lyr \lyricmode {
 				!I sing the migh- ty power of God,
@@ -50,33 +50,33 @@
 				!and built the lof- ty skies.
 			} }
 			\new Voice = "alto" \relative f' {
-				s4.
+				s2.
 				\voiceTwo
-				gs16 e b8 b b b b b b e ds ds ds ds e4.
-				e8 ds ds ds ds e gs g e e e ds b e4 e
-				e8 e cs b b4.
-				s8
+				gs8 e b4 b b b b b b e ds ds ds ds e2.
+				e4 ds ds ds ds e gs g e e e ds b e2 e
+				e4 e cs b b2.
+				s4
 			}
 		>>
 		\new Staff <<
 			\clef bass
 			\key e \major
 			\new Voice = "tenor" \relative c' {
-				r4.
+				r2.
 				\voiceOne
-				b8 a a a a gs gs gs gs a a a a gs4.
-				b8 b b b b b e e e b b b b b4 cs
-				b8 b a a gs4.
+				b4 a a a a gs gs gs gs a a a a gs2.
+				b4 b b b b b e e e b b b b b2 cs
+				b4 b a a gs2.
 				\oneVoice
-				r8
+				r4
 			}
 			\new Voice = "bass" \relative c' {
-				s4.
+				s2.
 				\voiceTwo
-				gs8 b, b b b b b b b b b b b b4.
-				b8 b b b b e d c c b b a a gs4 fs
-				b8 b b b e4.
-				s8
+				gs4 b, b b b b b b b b b b b b2.
+				b4 b b b b e d c c b b a a gs2 fs
+				b4 b b b e2.
+				s4
 			}
 		>>
 	>>
