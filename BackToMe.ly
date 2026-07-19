@@ -31,7 +31,7 @@
 			\key e \major
 			\numericTimeSignature
 			\time 4/4
-			\tempo "" 4 = 70
+			\tempo "" 4 = 140
 			\new Voice = "sops" \relative f' {
 				r2.
 				\voiceOne
