@@ -22,13 +22,14 @@
 			\chordmode {
 				s2 e
 				b:7 b:7 e e b:7 b:7 e
-				e b b e4 e:7 c c
+				e b b e4 e:7 c2 c
 				e2 b e a e fs:m e
 			}
 		}
 		\new Staff <<
 			\set Staff.midiInstrument = "acoustic grand"
 			\key e \major
+			\numericTimeSignature
 			\time 4/4
 			\tempo "" 4 = 70
 			\new Voice = "sops" \relative f' {
@@ -36,7 +37,11 @@
 				\voiceOne
 				gs8(e) ds4 fs fs e8(ds) e4 gs gs
 				e fs a a gs8(fs) gs4(b2)
-				gs4 fs a a gs8(fs) gs4 b e
+				gs4 fs a a gs8(fs)
+				\time 2/4
+				gs4 b
+				\time 4/4
+				e2.
 				e,8(fs) gs(a) gs4 fs b, b'2.
 				a4 gs8(fs) e4 fs gs e2.
 				\oneVoice
@@ -53,7 +58,7 @@
 				s2.
 				\voiceTwo
 				gs8 e b4 b b b b b b e ds ds ds ds e2.
-				e4 ds ds ds ds e gs g e e e ds b e2 e
+				e4 ds ds ds ds e gs g2. e4 e e ds b e2 e
 				e4 e cs b b2.
 				s4
 			}
@@ -65,7 +70,7 @@
 				r2.
 				\voiceOne
 				b4 a a a a gs gs gs gs a a a a gs2.
-				b4 b b b b b e e e b b b b b2 cs
+				b4 b b b b b e e2. e4 b b b b b2 cs
 				b4 b a a gs2.
 				\oneVoice
 				r4
@@ -74,7 +79,7 @@
 				s2.
 				\voiceTwo
 				gs4 b, b b b b b b b b b b b b2.
-				b4 b b b b e d c c b b a a gs2 fs
+				b4 b b b b e d c2. c4 b b a a gs2 fs
 				b4 b b b e2.
 				s4
 			}
